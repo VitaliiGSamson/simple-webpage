@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="elon-musk-question.ico" type="image/x-icon">
+    <title>Quiz</title>
+</head>
+
+<body style="background-color:#FED8D8;">
+    <h1 align="center"><i><b><u>Feedback</u></b></i></h1>
+    <form method="POST" action="https://formspree.io/iBorys.w@gmail.com">
+        <fieldset>
+            <legend><b>Дайте відповідь:</b></legend>
+            <br>
+            <label for="name">Ваше ім'я:</label>
+            <input id="name" name="name" type="text" placeholder="Your name">
+            <br><br>
+            <label for="surname">Ваше прізвище</label>
+            <input id="surname" name="surname" type="text" placeholder="Your surname">
+            <br><br>
+            <label for="email">Ваш email:</label>
+            <input id="email" name="email" type="text" placeholder="Your email">
+            <br><br>
+            <label for="tel">Ваш номер телефону:</label>
+            <input id="tel" name="phone number" type="text" placeholder="Your phone number">
+            <br><br>
+            <label>Ваша стать:</label>
+            <label>
+                <input type="radio" name="gender" id="male" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" id="female" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" id="other" value="other">
+                Other
+            </label>
+            <br><br>
+            <label for="age">Ваш вік:</label>
+            <input type="number" name="age" id="age" min="1" max="100" step="1" placeholder="XX">
+            <br><br>
+            <label for="date">Дата народження:</label>
+            <input type="date" name="date" id="date">
+            <br>
+        </fieldset>
+        <br>
+        <label for="question1"><b>Виберіть правильну відповідь: Ким є Ілон Маск?</b></label>
+        <input list="answer1" id="question1" name="question1" placeholder="оберіть варіант">
+        <datalist id="answer1">
+                        <option value="Президентом">
+                        <option value="Художником">
+                        <option value="Винахідником">
+                        <option value="Королем">
+                    </datalist>
+        <br><br>
+        <fieldset>
+            <legend><b>Яке творіння Маска Вам найбільше подобається ?</b></legend>
+            <input type="radio" id="Tesla" value="Tesla" name="бізнес">
+            <label for="Tesla">Tesla</label><br/>
+            <input type="radio" id="PayPal" value="Платіжна система PayPal" name="бізнес">
+            <label for="PayPal">Платіжна система PayPal</label><br/>
+            <input type="radio" id="Ракета" value="SpaceX" name="бізнес">
+            <label for="Ракета">SpaceX</label><br/>
+            <input type="radio" id="Швидкісний потяг" value="Hyperloop" name="бізнес">
+            <label for="Швидкісний потяг">Hyperloop</label><br/>
+            <input type="radio" id="Електроенергія" value="SolarCity" name="бізнес">
+            <label for="Електроенергія">SolarCity</label><br/>
+            <input type="radio" id="Інше" value="Інше" name="бізнес">
+            <label for="Інше">Інше</label> <input type="text" placeholder="Ваш варіант"><br/>
+        </fieldset>
+        <br>
+        <label for="opinion"> <b>Чи вважаєте Ілона Маска винахідником майбутнього.Чому?:</b></label><br><br>
+        <textarea id="opinion" name="opinion" placeholder="Дайте відповідь:" cols="100"></textarea>
+        <br><br>
+        <label><b>Чи вірите ви в польоти на інші планети?</b></label>
+        <label>
+            <input type="radio" name="issue" value="Так">
+            Так
+        </label>
+        <label>
+            <input type="radio" name="issue" value="Ні">
+            Ні 
+        </label>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <p>Питання складені на основі інформації, викладеної <a href="index.html"><i>тут</i></a>.</p>
+    <footer>
+        <p><i>Ⓒ G.Samson</i></p>
+        <p><i>All rights reserved.</i></p>
+    </footer>
+
+
+</body>
+
+</html>
